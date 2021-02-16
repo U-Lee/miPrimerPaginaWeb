@@ -1,0 +1,54 @@
+body {
+    background: white;
+  }
+
+  h1 {
+    color: crimson;
+  }
+
+nav{
+    background:#729fcfff;
+}
+
+
+.menu{
+
+}
+
+
+
+#menu{
+    
+}
+
+#submenu{
+    color: black;
+    background: #adc5e7ff;
+    text-align: right;
+    padding: 10px 30px;
+    border: 1px solid blue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#submenu:hover{
+    background: rgb(121, 140, 167);
+}
+
+#banner{
+    color: white;
+    background: #009288ff;
+}
+
+#tituloBanner{
+    color:white;
+}
+
+#informacionEnmedio{
+    text-align: center;
+}
+
+#textoIzquierda{
+    
+    width: 300 px;
+}

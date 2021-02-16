@@ -1,56 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina HTML</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera pagina HTML</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <!--
+ <style>
+    body {
+      background: cadetblue;
+    }
+
+    h1 {
+      color: crimson;
+    }
+  </style>
+  -->
+
+
 </head>
+
 <body>
 
 
 
-<!--Aqui va el bloque del menu-->
-<img src="img/PILARES.jpeg"><br>
- <a href="https://www.google.com/"> Página Google  </a>
- <a href="https://www.facebook.com/Comunidad-Agr%C3%ADcola-Oriental-105386687729984"> Conoce más</a>
- <a href="https://www.facebook.com/PILARES-Escuela-de-C%C3%B3digo-100494498506911"> Quienes somos </a>
+  <!--Aqui va el bloque del menu-->
+  <nav id="menu">
+
+    <img src="img/PILARES.jpeg" width="200" height="100">
+
+    <div id="submenu">
+      <a href="https://www.google.com/"> Página Google </a>
+      <a href="https://www.facebook.com/Comunidad-Agr%C3%ADcola-Oriental-105386687729984"> Conoce más</a>
+      <a href="https://www.facebook.com/PILARES-Escuela-de-C%C3%B3digo-100494498506911"> Quienes somos </a>
+
+    </div>
+
+  </nav>
 
 
 
 
- <!--Aqui va el bloque del banner-->
-<h1>Escuela de Código</h1>
-<img src="img/webdesign.jpg">
+  <!--Aqui va el bloque del banner-->
+  <div id="banner">
+    <h1 id="tituloBanner">Escuela de Código</h1>
+    <img id="imagenBanner" src="img/webdesign.jpg" width="100" height="100">
+  </div>
+
+
+
+  <!--Aqui va el bloque de texto izquierdo-->
+  <div id="informaciónPrincipal">
+    <h2>Presentación</h2>
+    <p id="textoIzquierda">
+      En estos tiempos de confinamiento provocados por la pandemia de COVID-19 el uso de internet se ha vuelto el
+      principal medio de comunicación, por lo que aprender a usar y crear herramientas de ingeniería de software
+      permitirá adaptarse mejor a esta nueva realidad.
+      La intención de este taller es ofrecer un primer acercamiento al uso de tecnologías web, pero para ello se
+      requiere conocimientos básicos de computación, así que el taller se dividirá en los siguientes módulos:
+
+    </p>
 
 
 
 
-<!--Aqui va el bloque de la columna de enmedio-->
-<div id="enmedio">
-  <img src="img/Carteles-pdf.jpg">
-  <a href="">Enlace</a>
+    <!--Aqui va el bloque de la columna de enmedio-->
+    <div id="informacionEnmedio">
+      <img src="img/Carteles-pdf.jpg" width="200" height="300">
+      <a href="">Enlace</a>
 
-</div>
+    </div>
 
-
-
-
-
-
-<!--Aqui va el pie de pagina-->
-<footer>
-  <img src="img/PILARES.jpeg">
-  <p>Contacto <b>Tel. 55 55 55 55</b></p>
-</footer>
+  </div>
 
 
 
-<div style="color:brown">
-  <p>Párrafo <span style="color: blue">bloque span aplicado</span> a un elemento en línea</p>
-  <p>Más parrafo</p>
-</div>
 
+  <!--Aqui va el pie de pagina-->
+  <footer>
+    <nav>
+      <img src="img/PILARES.jpeg" width="200" height="100">
+      <p>Contacto <b>Tel. 55 55 55 55</b></p>
+    </nav>
+  </footer>
+
+
+  <!--
+  <div style="color:brown">
+    <p>Párrafo <span style="color: blue">bloque span aplicado</span> a un elemento en línea</p>
+    <p>Más parrafo</p>
+  </div>
+-->
 
 
 </body>
+
 </html>
