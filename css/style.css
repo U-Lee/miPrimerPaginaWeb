@@ -10,45 +10,71 @@ nav{
     background:#729fcfff;
 }
 
-
-.menu{
-
+.boton{
+    border: 1px solid blue;
+    padding: 10px 30px;
+    text-align: right;
+    background: silver;
+    text-decoration: none;
+    color: black;
 }
 
 
-
-#menu{
+#botones{
+   
+    text-align: right;
     
 }
 
-#submenu{
-    color: black;
-    background: #adc5e7ff;
-    text-align: right;
-    padding: 10px 30px;
-    border: 1px solid blue;
-    text-decoration: none;
-    display: inline-block;
-}
-
-#submenu:hover{
-    background: rgb(121, 140, 167);
+#boton:hover{
+    background: rgb(150, 114, 16);
 }
 
 #banner{
-    color: white;
     background: #009288ff;
+    padding: 50px;
+    height: 100px;
 }
 
 #tituloBanner{
     color:white;
 }
 
+#imagenBanner{
+    float:right;
+}
+
+#content{
+    /*border: 10px solid red;*/
+    min-height: (100vh -100px -100px);
+}
+
+
 #informacionEnmedio{
-    text-align: center;
+    float:left;
+    width: 200px;
+    padding: 50px;
+    /*border: 10px solid red;*/
 }
 
 #textoIzquierda{
+    /*border: 10px solid red;*/
+    float:left;
+    width: 500px;
+    padding: 50px;
+    text-align: justify;
     
-    width: 300 px;
+}
+
+#aside{
+    float:right;
+    /*border: 10px solid red;*/
+    width: 200px;
+    padding: 50px;
+    background: skyblue;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
 }
